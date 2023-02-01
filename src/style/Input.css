@@ -1,0 +1,73 @@
+form {
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    /* display: inline-block; */
+    font-size: larger;
+    background-color: green;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+input[type="reset"]{
+    font-size: larger;
+    background-color: rgb(40, 92, 236);
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: thin solid #dedede;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 250px;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+}
+
+button:nth-child(1) {
+    margin: 0 5px;
+    background-color: rgb(1, 71, 1);
+    border: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:nth-child(1):hover {
+    background-color: rgb(0, 121, 0);
+}
+
+button:nth-child(2) {
+    margin: 0 5px;
+    background-color: rgb(128, 0, 0);
+    border: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:nth-child(2):hover{
+    background-color: rgb(170, 3, 3);
+}
+
+td {
+    text-align: center;
+}
+
+thead tr th {
+    margin: 0 10px;
+}
+
+
+
